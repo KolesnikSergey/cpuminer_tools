@@ -1,0 +1,15 @@
+# Underclock CPU and SDRAM
+arm_freq=750
+sdram_freq=300
+over_voltage=-4
+
+# Reduce GPU frequency (for terminal-only)
+gpu_freq=200
+gpu_mem=16
+
+# Disable Wi-Fi and Bluetooth
+dtoverlay=disable-wifi
+dtoverlay=disable-bt
+
+# Disable HDMI to save power (optional)
+hdmi_blanking=2
